@@ -55,7 +55,7 @@ li a {
 }
 
 main {
-  margin: .75em;
+  margin: 0 0.75em;
 }
 
 h2 {
@@ -64,15 +64,19 @@ h2 {
   font-size: 1.875rem;
 }
 
+img {
+  width: 100%;
+}
+
 footer {
   display: flex;
   min-height: 2em;
   background-color: #ffe500;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 footer p {
   font-size: .75rem;
-  padding: .2em;
+  /* padding: .2em; */
 }
